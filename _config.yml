@@ -1,0 +1,16 @@
+# Site settings
+title: Mittballs
+description: "​Mittballs turns presidential candidate Mitt Romney into plummeting meatballs."
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+#baseurl: /
+
+gems:
+  - octopress-autoprefixer
