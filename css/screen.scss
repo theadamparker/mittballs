@@ -46,6 +46,8 @@ table {
 	border-spacing: 0;
 }
 
+@import "fonts.scss";
+
 
 body {
 	overflow: hidden;
@@ -122,4 +124,10 @@ h1 {
 	z-index: 99;
 	overflow: hidden;
 }
-	
+
+.trumplingslink {
+	font-family: $helvetica;
+	position: absolute;
+	left: 2rem;
+	bottom: 2rem;
+}
